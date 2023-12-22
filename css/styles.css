@@ -33,6 +33,16 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.logo-span-header {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 .nav-list-link {
   color: #2e2f42;
   font-weight: 500;
