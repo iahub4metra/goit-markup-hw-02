@@ -90,7 +90,6 @@ ol {
 }
 .hero-image-button:hover,
 .hero-image-button:focus {
-  border-radius: 4px;
   background: var(--OCEAN, #404bbf);
 }
 /* section-2 */
