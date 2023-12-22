@@ -65,10 +65,10 @@ ol {
   color: #404bbf;
 }
 /* section 1 */
-.section-1 {
+.hero-image {
   background-color: #2e2f42;
 }
-.section-1-title {
+.hero-image-title {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -77,9 +77,8 @@ ol {
   color: #fff;
   text-align: center;
 }
-.section-1-button {
+.hero-image-button {
   cursor: pointer;
-  border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -89,13 +88,13 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.section-1-button:hover,
-.section-1-button:focus {
+.hero-image-button:hover,
+.hero-image-button:focus {
   border-radius: 4px;
   background: var(--OCEAN, #404bbf);
 }
 /* section-2 */
-.section-2-title {
+.feature-title {
   font-size: 20px;
   color: #2e2f42;
   font-style: normal;
@@ -103,14 +102,14 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.section-2-text {
+.feature-text {
   letter-spacing: 0.02em;
 }
 /* section-3 */
-.section-3 {
+.team-section {
   background-color: #f4f4fd;
 }
-.section-3-title {
+.team-section-title {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -120,7 +119,7 @@ ol {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-.section-3-name {
+.team-section-name {
   font-size: 20px;
   color: #2e2f42;
   font-style: normal;
@@ -128,15 +127,15 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.section-3-list-item {
+.team-section-list-item {
   background-color: #ffffff;
 }
-.section-3-list-text {
+.team-section-list-text {
   font-size: 16px;
   letter-spacing: 0.02em;
 }
 /* section-4 */
-.section-4-title {
+.portfolio-section-title {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -146,7 +145,7 @@ ol {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.section-4-name {
+.portfolio-section-name {
   font-size: 20px;
   color: #2e2f42;
   font-style: normal;
@@ -154,7 +153,7 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.section-4-list-text {
+.portfolio-section-text {
   letter-spacing: 0.02em;
 }
 /* footer */
