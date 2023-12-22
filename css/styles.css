@@ -1,11 +1,10 @@
 body {
-  font-family: "Roboto", Raleway, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   font-size: 16px;
   background-color: #fff;
   line-height: 1.5;
 }
-/* header */
 a {
   text-decoration: none;
 }
@@ -13,17 +12,43 @@ ul,
 ol {
   list-style-type: none;
 }
+/* header */
+.logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-span {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 .nav-list-link {
   color: #2e2f42;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
   color: #404bbf;
 }
+.address-main {
+  font-style: normal;
+}
 .address-list-link {
   color: #434455;
   font-weight: 400;
+  letter-spacing: 0.02em;
 }
 .address-list-link:hover,
 .address-list-link:focus {
@@ -37,20 +62,27 @@ ol {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 3.75;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   color: #fff;
+  text-align: center;
 }
 .section-1-button {
   cursor: pointer;
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .section-1-button:hover,
 .section-1-button:focus {
   border-radius: 4px;
   background: var(--OCEAN, #404bbf);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 /* section-2 */
 .section-2-title {
@@ -58,7 +90,11 @@ ol {
   color: #2e2f42;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.section-2-text {
+  letter-spacing: 0.02em;
 }
 /* section-3 */
 .section-3 {
@@ -70,15 +106,24 @@ ol {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 2.5;
+  line-height: 1.11;
   letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 .section-3-name {
   font-size: 20px;
   color: #2e2f42;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.section-3-list-item {
+  background-color: #ffffff;
+}
+.section-3-list-text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }
 /* section-4 */
 .section-4-title {
@@ -87,15 +132,20 @@ ol {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 2.5;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .section-4-name {
   font-size: 20px;
   color: #2e2f42;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.section-4-list-text {
+  letter-spacing: 0.02em;
 }
 /* footer */
 .footer {
@@ -103,4 +153,5 @@ ol {
 }
 .footer-text {
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
