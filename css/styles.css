@@ -49,6 +49,9 @@ ol {
 .nav-list-link:focus {
   color: #404bbf;
 }
+.address-main {
+  font-style: normal;
+}
 .address-list-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
